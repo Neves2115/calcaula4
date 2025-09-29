@@ -2,7 +2,7 @@ import unittest
 from calc import calcular
 
 class TestCalculadora(unittest.TestCase):
-
+    # --- testes ---
     def test_soma_inteiros_basica(self):
         self.assertEqual(calcular(5, 3, '+'), 8)
 
